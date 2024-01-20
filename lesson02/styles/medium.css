@@ -1,0 +1,16 @@
+@media screen and (min-width:601px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-child(1) {
+        grid-column: 1;
+    }
+    section:nth-child(2) {
+        grid-column: 2;
+    }
+    section:nth-child(3) {
+        grid-column: 1/3;
+    }
+}
