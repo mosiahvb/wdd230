@@ -1,0 +1,42 @@
+@media screen and (max-width:500px){
+    #menu {
+        display: contents;
+        font-size: 1.5rem;
+        border: none;
+        padding: 10px;
+        background-color: #A3B18A;
+        color: black;
+    }
+    
+    #menu::before {
+        content: "☰";
+    }
+    
+    #menu.open::before {
+        content: "❎";
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navigation li {
+        margin-bottom: 10px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    .open ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    a:hover{
+        background-color: #DAD7CD;
+    }
+
+
+}

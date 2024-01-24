@@ -17,4 +17,9 @@
     nav a:hover {
         border: 2px solid white;
     }
+
+    #menu {
+		display: none;
+	}
+
 }
