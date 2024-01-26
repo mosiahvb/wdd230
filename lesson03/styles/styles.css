@@ -1,0 +1,63 @@
+/*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Roboto Slab', serif;*/
+
+body, header, main {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1, h2 {
+    background-color: lightgrey;
+}
+
+.three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+h2 {
+    grid-column: 1/4;
+}
+
+.c1 {
+    background-color: #0D1B2A;
+    color: white;
+}
+
+.c2 {
+    background-color: #415A77;
+    color: white;
+}
+
+.c3 {
+    background-color: #E0E1DD;
+}
+
+#font1{
+    font-family: 'Roboto Slab', serif;
+}
+#font2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.five img {
+    width: 200px; /* Set the width to your desired size */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+
+footer{
+    background-color: lightgray;
+    padding: 10px;
+}
