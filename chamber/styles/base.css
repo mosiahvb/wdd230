@@ -16,7 +16,7 @@ header {
 }
 
 h1{
-    color: #E0E1DD;
+    color: white;
 }
 /*header*/
 
@@ -61,11 +61,11 @@ nav li{
 a{
     text-decoration: none;
     padding: 10px;
-    color: #E0E1DD;
+    color: white;
 }
 
 nav li:hover a:hover{
-    background-color: #E0E1DD;
+    background-color: white;
     color: #415A77;
 }
 
@@ -88,12 +88,12 @@ nav li:hover a:hover{
     position: absolute;
     padding: 8px;
     background-color: #0D1B2A;
-    color: #E0E1DD;
-    border: 2px solid #E0E1DD;
+    color: white;
+    border: 2px solid white;
 }
 
 .hero-image h2:hover {
-    background-color: #E0E1DD;
+    background-color: white;
     color: #0D1B2A;
     border: 2px solid #0D1B2A;
 }
@@ -112,7 +112,7 @@ nav li:hover a:hover{
     margin: 5px;
     padding: 5px;
     background-color: #415A77;
-    color: #E0E1DD;
+    color: white;
     border: 2px solid #0D1B2A;
 }
 
@@ -138,19 +138,19 @@ nav li:hover a:hover{
 
 .c1{
     background-color: #415A77;
-    color: #E0E1DD;
+    color: white;
     margin: 5px;
 }
 
 .c2{
     background-color: #415A77;
-    color: #E0E1DD;
+    color: white;
     margin: 5px;
 }
 
 .c3{
     background-color: #415A77;
-    color: #E0E1DD;
+    color: white;
     margin: 5px;
 }
 /*spotlights*/
@@ -161,6 +161,6 @@ footer {
     width: 100%;
     text-align: center;
     background-color: #0D1B2A;
-    color: #E0E1DD;
+    color: white;
 }
 /*footer*/
