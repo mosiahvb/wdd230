@@ -1,0 +1,11 @@
+@media screen and (min-width:804px) {
+    header, nav, .hero-image, .sec1, .spotlights, footer {
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .spotlights {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

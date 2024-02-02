@@ -23,13 +23,26 @@ h1{
 /*nav*/
 nav{
     max-width: 400px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
 }
 
-#menu{
-    display: none;
+#menu {
+    margin: 5px;
+    background: none;
+    color: #000;
+    position: absolute;
+}
+#menu::before {
+    content: "☰";
+}
+#menu.open::before {
+    content: "✖️";
+}
+.open li {
+    display: block;
 }
 
 nav ul{ /* set everything to zero so you can make it how you like*/
@@ -42,6 +55,7 @@ nav li{
     border: 2px solid #415A77;
     margin: 10px;
     background-color: #415A77;
+    display: none;
 }
 
 a{
@@ -54,6 +68,7 @@ nav li:hover a:hover{
     background-color: #E0E1DD;
     color: #415A77;
 }
+
 /*nav*/
 
 /*hero-image*/
@@ -86,9 +101,11 @@ nav li:hover a:hover{
 
 /*sec1*/
 .sec1 {
-    margin: 10px;
+    max-width: 400px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
 }
 
 .current-events, .weather{
