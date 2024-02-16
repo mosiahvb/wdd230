@@ -9,12 +9,14 @@
     <meta name="description" content="practice Chamber of Commerce website to demonstrate skills learned.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
     <script src="scripts/lastModified" defer></script>
     <script src="scripts/hammenu.js" defer></script>
     <script src="scripts/darkmode.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
 
     <meta property="og:title" content="Chamber of Commerce Home page for WDD230">
     <meta property="og:type" content="website">
@@ -43,7 +45,16 @@
 
     <main>
         <section class="hero-image">
-            <img src="images/hero.png" alt="scenic picture of Nampa Idaho">
+
+            <picture>
+                <source srcset="images/hero6-medium.webp" media="(max-width: 400px)">
+                <source srcset="images/hero6-small.webp" media="(max-width: 800px)">
+                <img src="images/hero6-large.webp" alt="Rome temple image" width="1200" height="800">
+            </picture>
+            <!--<img src="images/hero.png" alt="scenic picture of Nampa Idaho">-->
+
+            <p></p>
+
             <h2>Join</h2>
             
         </section>
@@ -63,7 +74,8 @@
             <div class="weather">
                 <h3>Information</h3>
                 <p>Bosie ID</p>
-                <p>Temperature: 46°F</p>
+                <p>Temperature: <span id="temperature">49</span>°F</p>
+                <p>Wind Speed: <span id="wind-speed">3.1</span> mph</p>
             </div>
         </section>
 

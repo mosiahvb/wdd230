@@ -8,4 +8,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+    .hero-image p::before{
+        content: "Large";
+    }
 }

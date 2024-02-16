@@ -34,4 +34,7 @@
     .weather {
         grid-column: 2;
     }
+    .hero-image p::before{
+        content: "Medium";
+    }
 }
