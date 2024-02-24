@@ -240,3 +240,64 @@ footer {
 	border: 1px solid white;
 	padding: 10px;
   }
+
+/*discover page*/
+  .discover-main {
+    max-width: 400px;
+    margin: 0;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+  }
+
+  .discover-cont{
+    grid-column: 1;
+  }
+
+  #visitor-welcome {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #415A77;
+    text-align: center;
+    background-color: #415A77;
+    color: white;
+  }
+  
+  #holidays {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #415A77;
+    text-align: center;
+    background-color: #415A77;
+    color: white;
+  }
+
+  #fair {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #415A77;
+    text-align: center;
+    background-color: #415A77;
+    color: white;
+  }
+
+  #fair img {
+    border: 1px solid white;
+  }
+
+  #new-opens {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #415A77;
+    text-align: center;
+    background-color: #415A77;
+    color: white;
+  }
+ .discover-img {
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #415A77;
+    background-color: #415A77;
+    color: white;
+ }
+  /*discover page*/

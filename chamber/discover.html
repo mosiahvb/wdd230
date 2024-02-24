@@ -17,6 +17,7 @@
     <script src="scripts/hammenu.js" defer></script>
     <script src="scripts/darkmode.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/last-visit.js" defer></script>
 
     <meta property="og:title" content="Chamber of Commerce Home page for WDD230">
     <meta property="og:type" content="website">
@@ -26,7 +27,7 @@
 <body>
     <header>
         <h1>Nampa Chamber of Commerce</h1>
-        <label class="switch circular-switch">
+        <label class="switch circular-switch" >
             <input id="darkmode" type="checkbox">
             <span class="slider round"></span>
         </label>
@@ -43,10 +44,56 @@
         </ul>
     </nav>
 
-    <main>
+    <main class="discover-main">
         
-    </main>
+        <section class="discover-cont">
+            <div id="visitor-welcome">
 
+            </div>
+
+            <div id="holidays">
+                <h3>Upcoming Holidays</h3>
+                <p>March 15th - Potato Palooza Day</p>
+                <p>May 10th - Sagebrush Spectacle</p>
+                <p>September 28th - Harvest Hoedown</p>
+                <p>July 20th - River Rapids Rally</p>
+                <p>November 15th - Pioneer Pride Day</p>
+
+            </div>
+
+            <div id="fair">
+                <h3>Upcoming City Fair</h3>
+                <img src="images/fair.webp" alt="Image of a Ferris wheel" loading="lazy" width="400">
+                <p> Nampa city fair Is almost here! Tell your friends and family, and come enjoy a wonderful day in the sun with all of us! Rides, games, food, and dancing, all at our amazing Nampa city fair!</p>
+            </div>
+
+            <div id="new-opens">
+                <h3>Recently Opened Businesses</h3>
+                <p>Come see, what's new in Nampa!</p>
+                <p>Sagebrush Supply Co.</p>
+                <p>Spud City Diner</p>
+                <p>Riverstone Outfitters</p>
+                <p>Pioneer's Pantry Bakery</p>
+                <p>Gem State Goods</p>
+                <p>Idaho Trails Adventure Gear</p>
+                <p>Sagebrush Brews & Beans</p>
+                <p>Harvest Home Decor & Gifts</p>
+            </div>
+
+        </section>
+
+        <section class="discover-img">
+            <h3>Places to see around the other Nampa!</h3>
+            <img src="images/idaho1.webp" alt="Picture of Idaho" loading="lazy" >
+            <img src="images/idaho2.webp" alt="Picture of Idaho" loading="lazy" >
+            <img src="images/idaho3.webp" alt="Picture of Idaho" loading="lazy" >
+            <img src="images/idaho4.webp" alt="Picture of Idaho" loading="lazy" >
+            <img src="images/idaho5.webp" alt="Picture of Idaho" loading="lazy" >
+            <img src="images/idaho6.webp" alt="Picture of Idaho" loading="lazy" >
+        </section>
+
+    </main>
+‹
     <footer>
         <p>&copy; <span id="currentYear"></span> Mosiah Valdez | WDD230 project | USA</p>
         <p id="lastModified"></p>

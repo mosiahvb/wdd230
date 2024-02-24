@@ -1,5 +1,5 @@
 @media screen and (min-width:460px){
-    header, nav, .hero-image, .sec1, .spotlights, footer {
+    header, nav, .hero-image, .sec1, .spotlights, footer, .discover-main{
         max-width: 800px;
     }
 
@@ -36,5 +36,25 @@
     }
     .hero-image p::before{
         content: "Medium";
+    }
+
+    .discover-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hero-image p::before{
+        content: "Large";
+    }
+
+    .discover-cont{
+        grid-column: 1;
+      }
+
+      .discover-img {
+        grid-column: 2/3;
+    }
+
+    img {
+        max-width: 300px;
     }
 }
