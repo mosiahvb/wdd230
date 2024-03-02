@@ -301,3 +301,61 @@ footer {
     color: white;
  }
   /*discover page*/
+
+  /*join page CSS*/
+  .join_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    width: 100%;
+    max-width: 1000px;
+  }
+  .join_h1 {
+    grid-column: 1/3;
+    background-color:#415A77 ;
+    padding: 5px;
+    text-align: center;
+  }
+  .wf1 {
+    grid-column: 1;
+    border: solid 2px #415A77;
+  }
+  .memb_info{
+    grid-column: 2;
+    border: solid 2px #415A77;
+    text-align: center;
+    padding: 10px;
+  }
+  
+
+  .wf1 fieldset {
+    margin: 2rem 0;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+  }
+  .wf1 legend {
+    color: blue;
+    border: solid 2px ;
+    padding: 2px;
+  }
+  .wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: large;
+  }
+  
+  .wf1 input[type="text"],
+  .wf1 input[type="tel"],
+  .wf1 input[type="email"]{
+      background-color: #eee;
+      display: block;
+      border: solid 1px #999;
+      border-radius: 6px;
+      padding: .75rem;
+      color: #555;
+      width: 100%;
+      max-width: 400px;
+      appearance: none;
+  }

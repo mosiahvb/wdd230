@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Home page</title>
+    <meta name="author" content="Mosiah Valdez">
+    <meta name="description" content="practice Chamber of Commerce website to demonstrate skills learned.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="scripts/lastModified" defer></script>
+    <script src="scripts/hammenu.js" defer></script>
+    <script src="scripts/darkmode.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+
+    <meta property="og:title" content="Chamber of Commerce Home page for WDD230">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdnassets.hw.net/dims4/GG/1897e83/2147483647/strip/true/crop/3000x2000+0+0/resize/416x277!/quality/90/?url=https%3A%2F%2Fcdnassets.hw.net%2Fe8%2Faa%2F2e8ee40544c3874b1607a7222355%2Fadobestock-54793373.jpeg">
+    <meta property="og:url" content="https://mosiahvb.github.io/wdd230/chamber/">
+</head>
+<body>
+    <header>
+        <h1>Nampa Chamber of Commerce</h1>
+        <label class="switch circular-switch">
+            <input id="darkmode" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+
+    </header>
+
+    <nav>
+        <button id="menu" aria-label="hamburger menu"></button>
+        <ul >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+
+    <main class="join_main">
+        <h1 class="join_h1">Join Our Community Today!</h1>
+        <form method="get" action="thankyou.html" class="wf1">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name* <input type = "text" name =  "fname" required></label>
+                <label> Last Name* <input type = "text" name = "lname" required></label>
+                <label>Title/Position* <input type="text" name="position" id="position" required pattern="[a-zA-Z -]{7,}" title="Please enter a title or position (minimum 7 characters)"></label>
+                <label>Email* <input type="email" name="email" id="email" required placeholder="example@gmail.com"></label>
+                <label>Phone* <input type="tel" name="phone" id="phone" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Organization Information</legend>
+                <label>Organization Name* <input type="text" name="org_name" id="org_name" required></label>
+                <label>Membership Level*
+                    <select name="membership_level" id="membership_level" required>
+                        <option value="">Select Membership Level</option>
+                        <option value="NP Membership">NP Membership</option>
+                        <option value="Bronze Membership">Bronze Membership</option>
+                        <option value="Silver Membership">Silver Membership</option>
+                        <option value="Gold Membership">Gold Membership</option>
+                    </select>
+                </label>
+                <label>Organization Description<textarea name="org_description" id="org_description"></textarea></label>
+                <input type="hidden" name="submission_time" id="submission_time">
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+
+        <section class="memb_info">
+            <h2>Membership Descriptions</h2>
+            <div>
+                <h3>NP Membership</h3>
+                <p>Description: This membership level is tailored for non-profit organizations dedicated to serving the community or pursuing charitable endeavors. NP Membership is specifically designed to support the unique needs and missions of non-profit organizations.</p>
+                <ul>
+                    <li>Access to networking events and seminars focused on fundraising strategies and grant writing.</li>
+                    <li>Recognition as a community partner on the Chamber's website and promotional materials.</li>
+                    <li>Opportunity to collaborate with other non-profit organizations and businesses for joint initiatives.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Bronze Membership</h3>
+                <p>Description: Bronze Membership is a foundational level designed to provide essential resources and support for small businesses and startups. It offers a solid framework for businesses to establish themselves and grow within the community.</p>
+                <ul>
+                    <li>Access to Chamber networking events, workshops, and business development seminars.</li>
+                    <li>Inclusion in the Chamber's online directory, increasing visibility and credibility among potential customers and clients.</li>
+                    <li>Member-exclusive discounts on services such as marketing, legal assistance, and professional development programs.</li>
+                </ul>
+            </div>
+                
+            <div>
+                <h3>Silver Membership</h3>
+                <p>Description: Silver Membership offers enhanced benefits and resources tailored to established businesses seeking to expand their reach and influence within the community. It provides a platform for businesses to strengthen their brand presence and connect with key stakeholders.</p>
+                <ul>
+                    <li>Premium listing in the Chamber's online directory with enhanced visibility features and priority placement.</li>
+                    <li>Exclusive invitations to VIP networking events and industry-specific roundtable discussions.</li>
+                    <li>Access to specialized business advisory services, including mentorship programs and consulting sessions.</li>
+                </ul>
+            </div>
+                
+            <div>
+                <h3>Gold Membership</h3>
+                <p>Description: Gold Membership is the highest level of membership offered by the Chamber, providing comprehensive support and premium benefits for businesses seeking maximum exposure, influence, and growth opportunities. It is designed for industry leaders and key stakeholders committed to driving innovation and prosperity within the community.</p>
+                <ul>
+                    <li>Exclusive access to high-profile networking events, executive luncheons, and invitation-only receptions with prominent community leaders and decision-makers.</li>
+                    <li>Personalized business development assistance, including tailored marketing strategies and access to top-tier industry experts.</li>
+                    <li>Premier placement and prominent branding opportunities at Chamber-sponsored events, ensuring maximum visibility and recognition.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Mosiah Valdez | WDD230 project | USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
