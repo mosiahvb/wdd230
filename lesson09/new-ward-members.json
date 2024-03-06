@@ -1,0 +1,25 @@
+{
+    "info": {
+        "family-Name": "Valdez",
+        "date-Enterd": "06-09-2023",
+        "family-Number": "3",
+        "bishopric-Visits": true,
+        "familyMembers": [
+            {
+              "name": "Mosiah Valdez",
+              "gender": "Male",
+              "birthdate": "03-23-1992"
+            },
+            {
+              "name": "Audra Valdez",
+              "gender": "Female",
+              "birthdate": "08-4-1994"
+            },
+            {
+              "name": "Baby Valdez",
+              "gender": "Female",
+              "birthdate": "09-17-2023"
+            }
+          ]
+    }
+}
