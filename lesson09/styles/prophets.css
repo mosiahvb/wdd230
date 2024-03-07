@@ -1,4 +1,20 @@
-body {
+#cards {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    gap: 1rem;
+}
+
+img {
+    max-width: 320px;
+    border: solid 2px white;
+}
+
+section {
+    text-align: center;
+    background-color: lightskyblue;
+    gap: 2rem;
+}
+
+h1 {
+    text-align: center;
 }
