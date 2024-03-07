@@ -1,0 +1,65 @@
+{
+    "directory": [
+        {
+            "names": "Green Valley Landscaping",
+            "addresses": "123 Green Meadows Dr, Nampa, ID 83651",
+            "phone-numbers": "(208) 555-1234",
+            "website URLs": "www.greenvalleylandscaping-nampa.com",
+            "image":"data/images/Green-Valley-Landscaping.png" ,
+            "membership-level":"Bronze"
+        },
+        {
+            "names": "Silver Spoon Catering",
+            "addresses": "456 Silver St, Nampa, ID 83687",
+            "phone-numbers": "(208) 555-5678",
+            "website URLs": "www.silverspooncateringnampa.com",
+            "image":" " ,
+            "membership-level":"Bronze"
+        }
+        ,
+        {
+            "names": "Cascade Plumbing Services",
+            "addresses": "789 Cascade Ave, Nampa, ID 83686",
+            "phone-numbers": "(208) 555-9012",
+            "website URLs": "www.cascadeplumbingnampa.com",
+            "image":" " ,
+            "membership-level":"Bronze"
+        }
+        ,
+        {
+            "names": "Sunrise Fitness Center",
+            "addresses": "1010 Morning Sun Ln, Nampa, ID 83642",
+            "phone-numbers": "(208) 555-3456",
+            "website URLs": "www.sunrisefitnessnampa.com",
+            "image":" " ,
+            "membership-level":"Silver"
+        }
+        ,
+        {
+            "names": "TechSavvy Solutions",
+            "addresses": "1313 Tech Way, Nampa, ID 83687",
+            "phone-numbers": "(208) 555-6789",
+            "website URLs": "www.techsavvynampa.com",
+            "image":" " ,
+            "membership-level":"Silver"
+        }
+        ,
+        {
+            "names": "Mountain View Veterinary Clinic",
+            "addresses": "1414 Mountain Rd, Nampa, ID 83651",
+            "phone-numbers": "(208) 555-2345",
+            "website URLs": "www.mountainviewvetnampa.com",
+            "image":" " ,
+            "membership-level":"Silver"
+        }
+        ,
+        {
+            "names": "Blossom Boutique Florist",
+            "addresses": "Address: 1515 Blossom Ln, Nampa, ID 83686",
+            "phone-numbers": "(208) 555-7890",
+            "website URLs": "www.blossomboutiquenampa.com",
+            "image":" " ,
+            "membership-level":"Gold"
+        }
+    ]
+}
