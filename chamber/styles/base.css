@@ -387,3 +387,77 @@ footer {
     background-color: white;
     color: #415A77;
   }
+
+  /*directory*/
+  .directory_mean h1{
+    text-align: center;
+    background-color: #415A77;
+    padding: 10px;
+    margin-bottom: -0.5rem;
+  }
+  .menu {
+    text-align: center;
+    background-color: #415A77;
+    padding: 10px;
+  }
+  .menu button {
+    color: #415A77;
+    font-size: larger;
+  }
+
+  .directory section {
+    margin: 10px;
+    border: solid 2px white;
+    padding: 5px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr 1fr));
+    grid-gap: 5px;
+    align-items: center;
+    background-color: #415A77;
+    color: white;
+    margin: 10px;
+  }
+
+  .grid section {
+    text-align: center;
+  }
+
+  .grid img {
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #333;
+  }
+
+  .grid section > * {
+    margin: 0.1rem;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #415A77;
+    color: white;
+  }
+
+  .list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+  }
+
+  .list section > * {
+    margin: 0 1rem;
+  }
+
+  .list section img {
+    display: none; /* smaller viewports only */
+  }
+
+  .list section:nth-child(even) {
+    background-color: white;
+    color: #415A77;
+  }
