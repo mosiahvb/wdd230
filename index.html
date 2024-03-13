@@ -19,6 +19,7 @@
     <script src="scripts/hammenu.js" defer></script>
     <script src="scripts/visits.js" defer></script>
     <script src="scripts/links.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 
 
     <meta property="og:title" content="Homepage for WDD 230 - Web Frontend Development Submissions">
@@ -69,7 +70,12 @@
             <h3>Information</h3>
             <!--Information placeholders about the weather, number of visits to the page, etc-->
             <p>Bosie ID</p>
-            <p>Temperature: 25°F</p>
+            <p>Temperature: <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon">
+                <figcaption></figcaption>
+            </figure>
+
             <p><span class="lable">Number of Visits: </span><span class="visits">Number of Visits: </span></p>
         </section>
     </main>

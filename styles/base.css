@@ -154,3 +154,8 @@ footer {
 p {
  text-align: center;
 }
+
+.card figure {
+    margin: 0 auto;
+    display: inline-block; 
+}
