@@ -13,10 +13,13 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/favicon.ico">
-    <script src="scripts/lastModified" defer></script>
+    <script src="scripts/lastModified.js" defer></script>
     <script src="scripts/hammenu.js" defer></script>
     <script src="scripts/darkmode.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/banner.js" defer></script>
+
 
     <meta property="og:title" content="Chamber of Commerce Home page for WDD230">
     <meta property="og:type" content="website">
@@ -42,6 +45,10 @@
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
+
+    <div class="banner">
+        
+    </div>
 
     <main>
         <section class="hero-image">
@@ -74,8 +81,17 @@
             <div class="weather">
                 <h3>Information</h3>
                 <p>Bosie ID</p>
-                <p>Temperature: <span id="temperature">49</span>°F</p>
+                <p>Temperature: <span id="current-temp"></span></p>
                 <p>Wind Speed: <span id="wind-speed">3.1</span> mph</p>
+                <figure>
+                    <img id="weather-icon">
+                    <figcaption></figcaption>
+                </figure>
+                
+                    <p><span id="future-temp1"></span></p>
+                    <p><span id="future-temp2"></span></p>
+                    <p><span id="future-temp3"></span></p>
+                
             </div>
         </section>
 

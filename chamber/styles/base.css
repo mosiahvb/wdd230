@@ -461,3 +461,27 @@ footer {
     background-color: white;
     color: #415A77;
   }
+
+  .banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .banner p{
+    background-color: #415A77;
+    color: white;
+    padding: 10px;
+    grid-column: 1/4;
+}
+  .banner button {
+    grid-column: 2;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+    background-color: white;
+    color: #415A77;
+    padding: 4px;
+    border: none;
+  }
+  .banner button:hover{
+    background-color: #415A77;
+    color: white;
+  }
