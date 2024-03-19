@@ -234,11 +234,11 @@ footer {
   .hero-image p{
     position: absolute;
     top: 40px;
-	left: 60px;
-	background: #415A77;
+	  left: 60px;
+	  background: #415A77;
     color: white;
-	border: 1px solid white;
-	padding: 10px;
+	  border: 1px solid white;
+	  padding: 10px;
   }
 
 /*discover page*/

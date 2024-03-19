@@ -6,6 +6,7 @@
             "phone_numbers": "(208) 555-1234",
             "website_URLs": "www.greenvalleylandscaping-nampa.com",
             "image":"data/images/Green-Valley-Landscaping.png" ,
+            "altText":"Green Valley Landscaping Logo",
             "membership_level":"Bronze"
         },
         {
@@ -14,6 +15,7 @@
             "phone_numbers": "(208) 555-5678",
             "website_URLs": "www.silverspooncateringnampa.com",
             "image":"data/images/Silver-Spoon-Catering.png " ,
+            "altText":"Silver Spoon Catering Logo",
             "membership_level":"Bronze"
         }
         ,
@@ -23,6 +25,7 @@
             "phone_numbers": "(208) 555-9012",
             "website_URLs": "www.cascadeplumbingnampa.com",
             "image":"data/images/Cascade-Plumbing-Services.png" ,
+            "altText":"Cascade Plumbing Services Logo",
             "membership_level":"Bronze"
         }
         ,
@@ -32,6 +35,7 @@
             "phone_numbers": "(208) 555-3456",
             "website_URLs": "www.sunrisefitnessnampa.com",
             "image":"data/images/Sunrise-Fitness-Center.png" ,
+            "altText":"Sunrise Fitness Center Logo",
             "membership_level":"Silver"
         }
         ,
@@ -41,6 +45,7 @@
             "phone_numbers": "(208) 555-6789",
             "website_URLs": "www.techsavvynampa.com",
             "image":"data/images/TechSavvy-Solutions.png" ,
+            "altText":"TechSavvy Solutions Logo",
             "membership_level":"Silver"
         }
         ,
@@ -50,6 +55,7 @@
             "phone_numbers": "(208) 555-2345",
             "website_URLs": "www.mountainviewvetnampa.com",
             "image":"data/images/Mountain-View-Veterinary-Clinic.png" ,
+            "altText":"Mountain View Veterinary Clinic Logo",
             "membership_level":"Silver"
         }
         ,
@@ -59,6 +65,7 @@
             "phone_numbers": "(208) 555-7890",
             "website_URLs": "www.blossomboutiquenampa.com",
             "image":"data/images/Blossom-Boutique-Florist.png" ,
+            "altText":"Blossom Boutique Florist Logo",
             "membership_level":"Gold"
         }
     ]

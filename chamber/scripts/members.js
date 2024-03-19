@@ -22,6 +22,7 @@ async function getData() {
         website.textContent = `${member.website_URLs}`;
         membership.textContent = `${member.membership_level}`;
         img.setAttribute('src', member.image);
+        img.setAttribute('alt', member.altText)
 
         sec.appendChild(h2);
         sec.appendChild(phone_number);
