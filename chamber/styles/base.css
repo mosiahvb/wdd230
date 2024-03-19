@@ -413,7 +413,7 @@ footer {
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 5px;
     align-items: center;
     background-color: #415A77;
@@ -485,3 +485,4 @@ footer {
     background-color: #415A77;
     color: white;
   }
+  
