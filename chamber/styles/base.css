@@ -411,6 +411,10 @@ footer {
     padding: 5px;
   }
 
+  #grid, #list{
+    color: #000;
+  }
+
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
