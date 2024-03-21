@@ -8,9 +8,6 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    .hero-image p::before{
-        content: "Large";
-    }
 
     
     img {

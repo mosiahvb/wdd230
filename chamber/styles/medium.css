@@ -42,9 +42,6 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .hero-image p::before{
-        content: "Large";
-    }
 
     .discover-cont{
         grid-column: 1;
