@@ -57,4 +57,7 @@
     img {
         max-width: 300px;
     }
+    .hero-image img {
+        max-width: 500px;
+    }
 }
