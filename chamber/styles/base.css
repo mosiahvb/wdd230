@@ -39,7 +39,7 @@ nav{
     content: "☰";
 }
 #menu.open::before {
-    content: "✖️";
+    content: "❌";
 }
 .open li {
     display: block;
@@ -458,7 +458,7 @@ footer {
   }
 
   .list section img {
-    display: none; /* smaller viewports only */
+    display: none; 
   }
 
   .list section:nth-child(even) {
@@ -492,4 +492,50 @@ footer {
   
   #hero_join a:hover{
     color: black;
+  }
+
+  /* membership levels */
+  .np {
+    background-color: skyblue;
+    padding: 4px;
+    border-radius: 20px;
+  }
+  .bronze{
+    background-color: #d68c45;
+    padding: 4px;
+    border-radius: 20px;
+  }
+  .silver{
+    background-color: silver;
+    padding: 4px;
+    border-radius: 20px;
+  }
+  .gold{
+    background-color: rgb(255, 236, 130);
+    padding: 4px;
+    border-radius: 20px;
+  }
+
+  .thankyoumain{
+    text-align: center;
+  }
+  .thankyou{
+    background-color: #415A77;
+    padding: 10px;
+  }
+
+  #gohome{
+    margin-bottom: 3rem;
+    padding: 10px;
+  }
+  #gohome a{
+    background-color: #415A77;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 10px;
+  }
+  .thankyoumain p{
+    background-color: #415A77;
+    color: white;
+    padding: 5px;
   }

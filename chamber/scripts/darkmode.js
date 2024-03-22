@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     darkModeSlider.addEventListener('change', function() {
         // Selecting the elements I want to change
-        var elementsToChange = document.querySelectorAll('body, header, nav, main, section, footer, div, li');
+        var elementsToChange = document.querySelectorAll('body, header, nav, main, section, footer, div, li, h1, legend, button, #gohome, #gohome a, .thankyoumain p, label');
 
         if (this.checked) {
             elementsToChange.forEach(function(element) {
