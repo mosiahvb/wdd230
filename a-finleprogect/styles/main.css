@@ -2,9 +2,9 @@ body {
     background-color: gray;
 }
 
-/**/
+/*header*/
 header {
-    background-color: aquamarine;
+    background-color:white;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     align-items: center;
@@ -13,7 +13,7 @@ header {
 
 header img {
     grid-column: 2;
-    border: solid black 2px;
+    border: solid #03045E 2px;
     border-radius: 300px;
     max-width: 100px;
     height: auto;
@@ -24,54 +24,63 @@ header h1 {
     grid-column: 4/6; 
     text-align: center; 
     margin: 0; 
+    color: #03045E;
+    border: 2px solid #03045E ;
+    border-radius: 10px;
+    background-color: #90E0EF;
+    padding: 5px;
 }
-/**/
+/*header*/
 
-/**/
+/*nav*/
 nav {
-    background-color: blueviolet;
+    background-color: #90E0EF;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    color: aliceblue;
 }
 
-nav ul{ /* set everything to zero so you can make it how you like*/
+nav ul{ 
     list-style: none;
     padding: 0;
 }
 
 nav li{
     display: inline-block;
-    border: 2px solid #415A77;
-    margin: 10px;
-    background-color: #415A77;
 }
 
 a{
     text-decoration: none;
-    padding: 10px;
-    color: white;
-}
-
-nav li:hover a:hover{
+    padding: 8px;
+    font-size: larger;
+    color: #03045E;
+    border: 2px;
+    margin: 10px;
     background-color: white;
-    color: #415A77;
+    border-radius: 10px;
 }
 
+nav a:hover{
+    border: 2px solid white;
+    background-color: rgb(255, 214, 52);
+    color: white;
+    border-radius: 10px;
+}
+/*nav*/
 
-
-/**/
-
-/**/
+/*main*/
 main {
-    background-color: green;
+    margin-top: -1rem;
+    background-color: white;
+    width: 100%;
+    height: auto;
 }
-/**/
+/*main*/
 
-/**/
+/*footer*/
 footer {
-    background-color: coral;
+    background-color: #90E0EF;
+    text-align: center;
 }
-/**/
+/*footer*/
