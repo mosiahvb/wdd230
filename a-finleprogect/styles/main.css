@@ -39,6 +39,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 nav ul{ 
@@ -76,11 +77,40 @@ main {
     width: 100%;
     height: auto;
 }
+
+ .hero img {
+    width: 100%;
+}
+
+
+.home-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+}
+
+#home-summary, #weather{
+    background-color: #90E0EF;
+    gap: 5px;
+    padding: 5px;
+}
 /*main*/
 
 /*footer*/
 footer {
-    background-color: #90E0EF;
+    background-color: white;
     text-align: center;
+    font-size: large;
+    border: 5px solid #90E0EF;
+}
+footer p {
+    background-color: white;
+    padding: 1px;
+}
+
+footer img {
+    max-width: 25px;
+    
 }
 /*footer*/
