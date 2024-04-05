@@ -138,35 +138,89 @@ main {
 }
 /*main HOME*/
 
-/*main RENTALS*/
-.ren-lev1, .ren-lev2{
+/* main RENTALS */
+#rental-header{
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+    border: 4px solid #90E0EF;
+}
+
+.ren-lev1, .ren-lev2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
     text-align: center;
 }
 
-div{
+div {
     padding: 5px;
     border: 4px solid #90E0EF;
     margin: 1rem;
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+.ren-lev1 div img, .ren-lev2 div img {
+    max-width: 100%;
+    height: 200px; 
+    width: auto; 
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-  }
-  th, td {
+}
+
+th, td {
     padding: 8px;
     text-align: center;
     border: 2px solid black;
-    border-right: 2px solid black; 
-  }
-  th {
-    background-color: #f2f2f2;
-    
-  }
-/*main RENTALS*/
+    border-right: 2px solid black;
+}
 
+th {
+    background-color: #f2f2f2;
+}
+/* main RENTALS */
+
+/* main reservations*/
+
+/* main reservations*/
+
+/* main CONTACT*/
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90E0EF;
+    height: auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section {
+    display: flex;
+}
+
+.contact-section > div {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.map-container {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .contact-section {
+        flex-direction: column;
+    }
+}
+/* main CONTACT*/
 
 /*footer*/
 footer {

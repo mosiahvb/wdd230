@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.webp" alt="logo of a Scooter in the tropics">
+        <img src="images/logo.webp" alt="logo of a Scooter in the tropics" loading="lazy">
         <h1>SCOOTS</h1>
     </header>
 
@@ -19,13 +19,46 @@
             <li><a href="home.html">Home</a></li>
             <li><a href="rentals.html">Rentals</a></li>
             <li><a href="reservations.html">Reservations</a></li>
-            <li><a href="contact.html">🛵💨 Contact us</a></li>
+            <li><a href="contact.html">🛵💨 Contact Us</a></li>
         </ul>
     </nav>
 
     <main>
-        <div>
-            <h2>main</h2>
+        
+        <div class="section-title" >
+            <h3>Important information</h3>
+        </div>
+        <section class="contact-section">
+            <div>
+                <h4>Contact Information</h4>
+                <p>Office Phone# - 208-643-2231</p>
+                <p>Email - scootscontact@gmail.com</p>
+                <p>Vehicle Emergency# - 932-316-5532</p>
+                <p>Local emergency# - 911</p>
+            </div>
+
+            <div>
+                <h4>Contact Us</h4>
+                <form method="get" action="messagesent.html">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="comment">Comment:</label>
+                        <textarea id="comment" name="comment" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1uHz4ZuWYtcDp2EgL5WaaWFnBl9wM5cs&ehbc=2E312F" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Cozumel map"></iframe>
         </div>
     </main>
 
