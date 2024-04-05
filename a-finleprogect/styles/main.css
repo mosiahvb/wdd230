@@ -70,7 +70,7 @@ nav a:hover{
 }
 /*nav*/
 
-/*main*/
+/*main HOME*/
 main {
     margin-top: -1rem;
     background-color: white;
@@ -136,7 +136,37 @@ main {
     background-color: #90E0EF;
     padding: 5px;
 }
-/*main*/
+/*main HOME*/
+
+/*main RENTALS*/
+.ren-lev1, .ren-lev2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+div{
+    padding: 5px;
+    border: 4px solid #90E0EF;
+    margin: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border: 2px solid black;
+    border-right: 2px solid black; 
+  }
+  th {
+    background-color: #f2f2f2;
+    
+  }
+/*main RENTALS*/
+
 
 /*footer*/
 footer {
