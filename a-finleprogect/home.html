@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scoots Home page</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/homesmall.css">
     <script src="scripts/footerdatetime.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 <body>
     <header>
@@ -24,19 +26,36 @@
     </nav>
 
     <main>
+        <div class="cta">
+            <h2>Come take a ride and see where the Tide takes you!!!</h2>
+            <p><a href="reservations.html">Make Reservation Now</a></p>
+        </div>
         <div class="hero">
             <img src="images/hero.webp" alt="tropical beach scene">
+            <section class="home-info">
+                <div id="home-summary">
+                    <h2>Rental Option Summary</h2>
+                    <p>Honda Metro Scooter: Agile urban companion, perfect for zipping through city streets with style and efficiency.</p>
+                    <p>Honda Dio Scooter: Sporty and compact, ideal for urban adventurers seeking a nimble ride with a punch of performance.</p>
+                    <p>Honda PCX150 Scooter: Sleek and versatile, offering a smooth ride and ample storage, perfect for city commuting or weekend getaways.</p>
+                    <p>Honda Pioneer ATV: Robust and reliable, built to conquer rugged terrains with ease while offering comfort and versatility for off-road exploration.</p>
+                    <p>Jeep Wrangler - 4 door with a/c: Iconic off-road vehicle offering spacious comfort and modern amenities, ensuring a memorable adventure on any terrain.</p>
+                    <p>Jeep Wrangler - 2 door: Compact yet capable, designed for thrill-seekers who crave off-road excitement and open-air freedom.</p>
+                </div>
+    
+                <div id="weather">
+                    <h2>Weather</h2>
+                    <p>Cozumel Island</p>
+                    <p>Temperature: <span id="current-temp"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                    <figure>
+                        <img id="weather-icon" src="#" alt="depiction of the weather">
+                        <figcaption></figcaption>
+                    </figure>
+                    <p>Tomorrow's Forecasted Temperature: <span id="forecasted-temperature"></span></p>
+                </div>
+            </section>
         </div>
-
-        <section class="home-info">
-            <div id="home-summary">
-                <h2>Home summary placeholder</h2>
-            </div>
-
-            <div id="weather">
-                <h2>Weather placeholder</h2>
-            </div>
-        </section>
     </main>
 
     <footer>
