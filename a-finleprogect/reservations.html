@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scoots Home page</title>
+    <title>Scoots Reservation page</title>
     <link rel="stylesheet" href="styles/main.css">
     <script src="scripts/footerdatetime.js" defer></script>
 </head>
@@ -25,8 +25,67 @@
 
     <main>
         <div>
-            <h2>main</h2>
+            <h2>Reservation</h2>
         </div>
+        <section class="reservation-info">
+            <div class="reservation-section">
+                <form id="rentalForm" method="post" action="messagesent.html">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label>First Name* <input type="text" name="fname" required></label>
+                        <label>Last Name* <input type="text" name="lname" required></label>
+                        <label>Email* <input type="email" name="email" required placeholder="example@gmail.com"></label>
+                        <label>Phone* <input type="tel" name="phone" required></label>
+                        <label>State/Country <input type="text" name="state_country" required></label>
+                        <label>Cruise Line (optional) <input type="text" name="cruise_line"></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Rental Details</legend>
+                        <label>Rental Type* 
+                            <select name="rentalType" required>
+                                <option value="">Select Rental Type</option>
+                                <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+                                <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+                                <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
+                                <option value="Honda Pioneer ATVr">Honda Pioneer ATV</option>
+                                <option value="Jeep Wrangler 4D">Jeep Wrangler 4D</option>
+                                <option value="Jeep Wrangler 2D">Jeep Wrangler 2D</option>
+                                <!-- Add more options as needed -->
+                            </select>
+                        </label>
+                        <label>Number of Rentals* <input type="number" name="numberOfRentals" required></label>
+                        <label>Pickup Date* <input type="date" name="pickupDate" required></label>
+                        <label>Pickup Period* <br>
+                            <label><input type="radio" name="pickupPeriod" value="Half Day" required> Half Day</label>
+                            <label><input type="radio" name="pickupPeriod" value="Full Day" required> Full Day</label>
+                        </label>
+                        <label>Special Accommodations/Comments <textarea name="specialRequest" rows="4"></textarea></label>
+                        <label>Consent to Rental Services and Agreements<br>
+                            <label><input type="radio" name="consent-yes" value="consent-yes" required>YES</label>
+                            <label><input type="radio" name="consent-no" value="consent-no" required>NO</label>
+                        </label>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            
+            <div>
+                <h3>Rental Services and Agreements</h3>
+                <ul>
+                    <li>A $50 security deposit is required to confirm reservations.</li>
+                    <li>A valid drivers license is required in hand at the time of rental.</li>
+                    <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                    <li>Fuel charge is not included.</li>
+                    <li>Unlimited mileage.</li>
+                    <li>Liability insurance is included.</li>
+                    <li>Damage insurance is available for purchase.</li>
+                    <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                    <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                    <li>Rentals may be returned to either physical location.</li>
+                </ul>
+
+            </div>
+        </section>
     </main>
 
     <footer>
