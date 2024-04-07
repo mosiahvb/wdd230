@@ -357,6 +357,7 @@ button:hover {
 .section-title {
     text-align: center;
     margin-bottom: 20px;
+    background-color: lightgray;
 }
 
 .contact-section {
