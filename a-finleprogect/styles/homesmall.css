@@ -10,14 +10,12 @@
         flex-wrap: wrap; 
         justify-content: space-between; 
     }
-
     #home-summary, #weather {
         flex-basis: 48%; 
         margin: 10px; 
         text-align: center;
         
     }
-    
     .home-info {
         position: static;
         top: auto;
@@ -31,12 +29,9 @@
         width: 90%; 
         max-width: 600px; 
     }
-
-    #home-summary,
-    #weather {
+    #home-summary, #weather {
         flex-basis: 100%; 
     }
-    
     .home-info {
         position: static;
         top: auto;
