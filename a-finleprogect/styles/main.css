@@ -383,6 +383,16 @@ button:hover {
 }
 /* main CONTACT*/
 
+/* main request-accomplished*/
+.request-accomplished {
+    text-align: center;
+}
+.request-accomplished p {
+    font-size: larger;
+}
+
+/* main request-accomplished*/
+
 /*footer*/
 footer {
     background-color: white;
